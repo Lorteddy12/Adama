@@ -10,18 +10,26 @@ body {
 
 .Aside {
     background-color: var(--Primarycolor);
+    display: flex;
+    flex-direction: column;
 
 }
+
 .Aside img {
     width: 10%;
 }
+
 .App-Settings p {
     color: white;
     font-size: 12px;
     font-weight: 400;
 }
-h2 {
+
+.Aside h2 {
 color: white;
 font-size: 24px;
 font-weight: 400; 
+width: fit-content;
+
 }
+
