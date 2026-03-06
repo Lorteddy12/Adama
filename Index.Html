@@ -8,23 +8,49 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
 </head>
 <body>
-    
-    <main id="Main">
-        <span>
-        <aside class="Aside">
+    <section id="side-nav">
+        <div id="eecu-logo">
             <img src="Imgs/logo 1.svg" alt="EECU-Logo">
-            <section class="App-Settings">
-                <h2><span>Profile</span></h2>
-                <p>Profile name</p>
-            </section>
-            <a href="#">Budgeting</a>
-            <a href="#">Reports</a>
-            <section class="Drop-Downs"></section>
-            <i class="material-symbols-outlined"></i> 
-            <!--Unable to turn the sidebar into a column.-->
+        </div>
+        <label>Profile</label>
+        <select> <!--Add options here-->
+            <option>#</option>
+        </select>
+        
+        <div id="side-container">
+            <span id="sidenav-options">
+                <button class="sidenav-btns"href="#">Budgeting</button>
+                <button class="sidenav-btns" href="#">Reports</button>
+                
+            </span>
+        </div>
+    </section>
+    
+    <div id="container">
+        <section id="top-section-1">
+            <label>Prev.</label>
+            <label>Next</label>
+            <button>
+                <img src="Back.png" alt="Back-Arrow" id="backBtn">
+            </button>
+            <p id="month-text">February</p> <!--Javascript I assume-->
+            <button>
+                <img src="Back.png" alt="Back-Arrow" id="backBtn">
+            </button>
+        </section>
+        <section id="top-section-2">
 
-        </aside>
-        </span>
-    </main>
+        </section>
+    </div>
+    
+    <section id="chart-and-data">
+        <div id="chart-conatiner">
+            <!--Paceholder-->
+        </div>
+         <div id="budget-data">
+
+         </div>
+    </section>
+   
 </body>
 </html>

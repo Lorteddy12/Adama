@@ -1,35 +1,62 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --Primarycolor: #1F299C;
+    --Btn-hover: #303AAA;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    display: flex;
+    
 }
 
-.Aside {
+
+
+/*Side Navbar css*/
+#side-nav {
+    height: 100vh;
+    width: min-content;
     background-color: var(--Primarycolor);
+    
+
+}
+
+.sidenav-btns {
+    height: 5vh;
+    border-radius: 50px;
+    font-family: 'Roboto Serif', serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 2rem;
+    border-style: var(--Primarycolor);
+    background-color: var(--Primarycolor);
+    color: white;
+}
+
+#sidenav-btns:hover {
+    background-color: var(--Btn-hover);
+}
+
+
+#top-section-1 {
+    height: min-content;
+}
+
+#side-container {
     display: flex;
     flex-direction: column;
-
 }
 
-.Aside img {
-    width: 10%;
-}
-
-.App-Settings p {
-    color: white;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.Aside h2 {
-color: white;
-font-size: 24px;
-font-weight: 400; 
-width: fit-content;
-
+#sidenav-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
