@@ -12,45 +12,27 @@
         <div id="eecu-logo">
             <img src="Imgs/logo 1.svg" alt="EECU-Logo">
         </div>
-        <label>Profile</label>
-        <select> <!--Add options here-->
-            <option>#</option>
-        </select>
+        <h3>Profile</h3>
         
         <div id="side-container">
             <span id="sidenav-options">
-                <button class="sidenav-btns"href="#">Budgeting</button>
-                <button class="sidenav-btns" href="#">Reports</button>
-                
+                <a class="sidenav-btns" href="money.html">Budgeting</a>
+                <a class="sidenav-btns" href="#">Accounts</a>  
             </span>
         </div>
-    </section>
-    
-    <div id="container">
-        <section id="top-section-1">
-            <label>Prev.</label>
-            <label>Next</label>
-            <button>
-                <img src="Back.png" alt="Back-Arrow" id="backBtn">
-            </button>
-            <p id="month-text">February</p> <!--Javascript I assume-->
-            <button>
-                <img src="Back.png" alt="Back-Arrow" id="backBtn">
-            </button>
-        </section>
-        <section id="top-section-2">
-
-        </section>
-    </div>
-    
-    <section id="chart-and-data">
-        <div id="chart-conatiner">
-            <!--Paceholder-->
+        <div class="drops">
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Budget</button>
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Loans</button>
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Tracking</button>
         </div>
-         <div id="budget-data">
-
-         </div>
     </section>
-   
+    <div class="page">
+        <select class="career"> 
+            <option>Please Select a Career</option>
+        </select>
+        <label for="account">Create Account</label>
+        <input type="text" name="account" id="account">
+    </div>
+    <a href="money.html" class="next">Create Account</a>
 </body>
 </html>
