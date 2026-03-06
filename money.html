@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EECU-CheckBook-App</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
+</head>
+<body>
+    <section id="side-nav">
+        <div id="eecu-logo">
+            <img src="Imgs/logo 1.svg" alt="EECU-Logo">
+        </div>
+        <h3>Profile</h3>
+        
+        <div id="side-container">
+            <span id="sidenav-options">
+                <a class="sidenav-btns" href="#">Budgeting</a>
+                <a class="sidenav-btns" href="index.html">Accounts</a>  
+            </span>
+        </div>
+        <div class="drops">
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Budget</button>
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Loans</button>
+            <button class="drop-btns"><img src="Imgs/drop-arrow.png" alt="Dropdown Arrow">Tracking</button>
+        </div>
+    </section>
+    
+    <div id="container">
+        <section id="top-section-1">
+            <label>Prev.</label>
+            <label>Next</label>
+            <button>
+                <img src="imgs/Back.png" alt="Back-Arrow" id="backBtn">
+            </button>
+            <p id="month-text">February</p> <!--Javascript I assume-->
+            <button>
+                <img src="imgs/Back.png" alt="Back-Arrow" id="backBtn">
+            </button>
+        </section>
+        <section id="top-section-2">
+            <button id="assign">Assign<img src="Imgs/drop-arrow.png"/></button>
+            <h2><span id="days">#</span> days</h2>
+            <h3>Age of Money</h3>
+        </section>
+    </div>
+    
+    <section id="chart-and-data">
+        <div id="chart-conatiner">
+            <!--Placeholder-->
+        </div>
+         <div id="budget-data">
+            <table id="assign-output">
+                <tr>
+                    <th>Category</th>
+                    <th>Budgeted</th>
+                    <th>Activity</th>
+                    <th>Available</th>
+                </tr>
+    
+                <tr>
+                    <td>Bills <img src="imgs/drop-arrow.png" alt="Bills Arrow"></td>
+                    <span id="nmbrs">
+                        <td>$0.00</td>
+                        <td>$0.00</td>
+                        <td>$0.00</td>
+                    </span>
+                </tr>
+                <span id="budget-data-placeholder">
+                    <!--Placeholder for JS later-->
+                </span>
+            </table>
+         </div>
+    </section>
+   
+</body>
+</html>

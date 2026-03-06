@@ -28,7 +28,7 @@ body {
 
 }
 
-.sidenav-btns {
+.sidenav-btns, h3 {
     height: 5vh;
     border-radius: 50px;
     font-family: 'Roboto Serif', serif;
