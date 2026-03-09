@@ -60,3 +60,12 @@ body {
     justify-content: flex-start;
 }
 
+/*CSS for main expenses*/
+.expenseContainer {
+    display: none;
+}
+
+.expenseContainer.active {
+    display: block;
+}
+
